@@ -16,6 +16,7 @@ class Logger:
         self.Q_std = 0.
         self.Q_mean = 0.
         self.kl = 0.
+        self.Q_bias_dict = {}
 
         self.checkpoint_dir = None
 
@@ -45,11 +46,12 @@ class Logger:
     def get_loss_reward(self):
         return self.actor_loss, self.critic_loss, self.temp_loss, \
                self.temperature, self.eval_reward, self.eval_times, \
-               self.entropy, self.Q_mean, self.Q_std, self.kl
+               self.entropy, self.Q_mean, self.Q_std, self.kl, self.Q_bias_dict
 
-    def store_Q_error(self, mean, std):
-        self.Q_mean = mean
-        self.Q_std = std
+    def store_Q_error(self, Q_bias_dict):
+        self.Q_bias_dict = Q_bias_dict
+        self.Q_mean = Q_bias_dict['norm_mean_bias'] # for compatibility
+        self.Q_std = Q_bias_dict['norm_std_bias']
 
     def store_kl(self, kl):
         self.kl = kl

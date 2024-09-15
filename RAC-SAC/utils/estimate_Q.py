@@ -75,4 +75,16 @@ class Q_estimator:
         norm_bias = np.array(bias_list) / abs(np.mean(Q_mc_list))
         norm_mean_bias = np.mean(norm_bias)
         norm_std_bias = np.std(norm_bias)
-        return norm_mean_bias, norm_std_bias
+        abs_mean_bias = np.mean(bias_list)
+        abs_std_bias = np.std(bias_list)
+        abs_min_bias = np.min(bias_list)
+        abs_max_bias = np.max(bias_list)
+        Q_bias_dict = {
+            'norm_mean_bias': norm_mean_bias,
+            'norm_std_bias': norm_std_bias,
+            'abs_mean_bias': abs_mean_bias,
+            'abs_std_bias': abs_std_bias,
+            'abs_min_bias': abs_min_bias,
+            'abs_max_bias': abs_max_bias
+        }
+        return Q_bias_dict

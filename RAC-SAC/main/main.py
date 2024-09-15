@@ -48,6 +48,8 @@ class learner(Agent):
         self.init_critic_lr = config['init_critic_lr']
         self.target_time_steps = config['target_time_steps']
         self.start_timesteps = config['start_timesteps']
+        self.sample_batch = config['sample_batch']
+        self.max_timesteps = config['max_timesteps']
 
         self.flag = flag
         self.t = t
@@ -116,24 +118,24 @@ class learner(Agent):
                 self.eval_policy(self.process_num)
                 self.clear_flag(self.eval)
                 continue
+            for _ in range(self.sample_batch):
+                self.episode_timesteps += 1
+                if self.t.value:
+                    action = self.select_action(np.array(state))
+                else:
+                    action = self.env.action_space.sample()
+                    action = self.env.reverse_action(action)
+                next_state, reward, self.done, _ = self.env.step(action)
+                self.episode_reward += reward
+                done_bool = float(self.done) if self.episode_timesteps < self._max_episode_steps else 0
+                self.replay_buffer.add(state, action, next_state, reward, done_bool)
+                state = next_state
 
-            self.episode_timesteps += 1
-            if self.t.value:
-                action = self.select_action(np.array(state))
-            else:
-                action = self.env.action_space.sample()
-                action = self.env.reverse_action(action)
-            next_state, reward, self.done, _ = self.env.step(action)
-            self.episode_reward += reward
-            done_bool = float(self.done) if self.episode_timesteps < self._max_episode_steps else 0
-            self.replay_buffer.add(state, action, next_state, reward, done_bool)
-            state = next_state
-
-            self.Logger.set_timesteps()
-            if self.done:
-                state, done = self.env.reset(), False
-                self.episode_timesteps = 0
-                self.episode_reward = 0.0
+                self.Logger.set_timesteps()
+                if self.done:
+                    state, done = self.env.reset(), False
+                    self.episode_timesteps = 0
+                    self.episode_reward = 0.0
 
             if self.t.value:
                 replay_buffer_size = self.replay_buffer.get_size()
@@ -171,10 +173,12 @@ class learner(Agent):
         self.Logger.store_result(reward_list)
 
         best_uncertain = self.eval_uncertain_list[reward_list.index(max(reward_list))]
-        if self.config['cal_Q_error']:
+        cur_timesteps = self.Logger.get_timesteps()
+        if self.config['cal_Q_error'] and cur_timesteps > int(0.99*self.max_timesteps):
+            print('cal_Q_error')
             Q_estimate_class = Q_estimator(self.config, self, best_uncertain)
-            mean, std = Q_estimate_class.cal_norm_bias()
-            self.Logger.store_Q_error(mean, std)
+            Q_bias_dict = Q_estimate_class.cal_norm_bias()
+            self.Logger.store_Q_error(Q_bias_dict)
 
         if self.config['cal_KL']:
             samples = self.replay_buffer.sample(self.batch_size * 4)
@@ -355,8 +359,8 @@ class RAC_SAC(tune.Trainable):
 
     def get_dic(self):
         actor_loss, critic_loss_list, temp_loss, temperature, \
-        reward, _, entropy, Q_mean, Q_std, kl = self.Logger.get_loss_reward()
-        return {'episode_reward_mean': max(reward),
+        reward, _, entropy, Q_mean, Q_std, kl, Q_bias_dict = self.Logger.get_loss_reward()
+        dic =  {'episode_reward_mean': max(reward),
                 'all_reward': reward,
                 'best_uncertain': self.eval_uncertain_list[reward.index(max(reward))],
                 'timesteps': self.Logger.get_timesteps(),
@@ -366,9 +370,11 @@ class RAC_SAC(tune.Trainable):
                 'temperature': temperature,
                 'eval_uncertain_list': self.eval_uncertain_list,
                 'average_entropy': entropy,
-                'Q_error_mean': Q_mean,
-                'Q_error_std': Q_std,
+                # 'Q_error_mean': Q_mean,
+                # 'Q_error_std': Q_std,
                 'kl': kl,
                 }
+        dic.update(Q_bias_dict)
+        return dic
 
 

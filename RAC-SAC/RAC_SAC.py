@@ -2,6 +2,7 @@ import argparse
 from main import main
 from ray import tune
 import numpy as np
+import torch
 import os
 import ray
 import sys
@@ -14,31 +15,36 @@ if __name__ == "__main__":
     ray.init()
 
     parser = argparse.ArgumentParser()
+    parallel_num = 5    # Number of parallel workers
+    gpu_num  = torch.cuda.device_count()
 
     parser.add_argument("--env", default="all", help='OpenAI gym environment name')
-    parser.add_argument("--seed", default=30, type=int, help='Sets Gym, PyTorch and Numpy seeds')
-    parser.add_argument("--seed_num", default=2, type=int, help='seed numbers')
-    parser.add_argument("--start_timesteps", default=5e3, type=int, help='Time steps initial random policy is used')
-    parser.add_argument("--eval_freq", default=3e3, type=int, help='How often (time steps) we evaluate')
-    parser.add_argument("--max_timesteps", default=1e6, type=int, help='Max time steps to run environment')
+    parser.add_argument("--seed", default=12345, type=int, help='Sets Gym, PyTorch and Numpy seeds')
+    parser.add_argument("--seed_num", default=5, type=int, help='seed numbers')
+    parser.add_argument("--parallel_num", default=parallel_num, type=int, help='Number of parallel workers')
+    parser.add_argument("--start_timesteps", default=1e4, type=int, help='Time steps initial random policy is used')
+    parser.add_argument("--eval_freq", default=20*(2.5e3), type=int, help='How often (time steps) we evaluate')
+    parser.add_argument("--max_timesteps", default=20*(1.5e6), type=int, help='Max time steps to run environment')
     parser.add_argument("--batch_size", default=256, type=int, help='Batch size for both actor and critic')
     parser.add_argument("--discount", default=0.99, help='Discount factor')
     parser.add_argument("--tau", default=0.005, help='Target network update rate')
-    parser.add_argument("--checkpoint_freq", default=1, type=int, help='Checkpoint saving frequency')
+    parser.add_argument("--checkpoint_freq", default=20, type=int, help='Checkpoint saving frequency')
     parser.add_argument("--policy_freq", default=1, type=int, help='Frequency of delayed policy updates')
-    parser.add_argument("--actor_lr", default=3e-4, help='Actor learning rate')
+    parser.add_argument("--actor_lr", default=1e-4, help='Actor learning rate')
     parser.add_argument("--temp_lr", default=3e-4, help='Temperature learning rate')  #
     parser.add_argument('--eval_episodes', type=int, default=10, help='Number of episodes needed for evaluation')
-    parser.add_argument("--replay_buffer_size", default=3e5, type=int, help='Replay buffer capability')
+    parser.add_argument("--replay_buffer_size", default=1e6, type=int, help='Replay buffer capability')
 
     # critic lr warm up
-    parser.add_argument("--critic_lr", default=3e-4, help='critic learning rate')
-    parser.add_argument("--init_critic_lr", default=3e-5, help='Initialized critic learning rate')
+    parser.add_argument("--critic_lr", default=1e-4, help='critic learning rate')
+    parser.add_argument("--init_critic_lr", default=1e-4, help='Initialized critic learning rate')
     parser.add_argument("--target_time_steps", type=int, default=1e4, help='Time steps to reach the maximum critic learning rate')
 
     #
-    parser.add_argument("--ensemble_size", default=10, type=int, help='ensemble size')
-    parser.add_argument("--UTD", default=20, type=int, help='update-to-data ratio')
+    parser.add_argument("--ensemble_size", default=5, type=int, help='ensemble size')
+    parser.add_argument("--UTD", default=1, type=int, help='update-to-data ratio')
+    parser.add_argument("--sample_batch", default=20, type=int, help='update-to-data ratio')
+
     parser.add_argument("--uncertain", default=0.8, type=int, help='Right side of exploitation distribution')  #
     parser.add_argument("--explore_uncertain", default=0.3, help='Right side of exploration distribution')
     parser.add_argument("--eval_uncertain_num", default=12, type=int, help='Number of discrete policies for evaluation')  #
@@ -47,14 +53,14 @@ if __name__ == "__main__":
     parser.add_argument("--action_noisy_sigma", default=0)
 
     #
-    parser.add_argument("--cal_Q_error", default=False, help='Whether to estimate the Q value error')  #
+    parser.add_argument("--cal_Q_error", default=True, help='Whether to estimate the Q value error')  #
     parser.add_argument('--MC_samples', type=int, default=10, help='Number of MC samples')
     parser.add_argument('--state_action_pairs', type=int, default=10, help='Number of state-action pair samples')
     parser.add_argument('--max_mc_steps', type=int, default=1200)
     parser.add_argument("--cal_KL", default=False)  #
 
     parser.add_argument("--cpu_per_trial", default=1, help='CPU resources used by each trail')
-    parser.add_argument("--gpu_per_trial", default=1.0, help='GPU resources used by each trail')
+    parser.add_argument("--gpu_per_trial", default= gpu_num / parallel_num, help='GPU resources used by each trail')
     args = parser.parse_args()
     args.policy = 'RAC-SAC'
     print("---------------------------------------")
@@ -72,14 +78,22 @@ if __name__ == "__main__":
 
     train_loop = main.RAC_SAC
 
-    seed = [x for x in range(args.seed, args.seed + args.seed_num)]  #
+    seed = [x for x in range(args.seed, args.seed + 10000*args.seed_num)]  #
     if args.env == 'all':
         env = [
-            # 'Ant-v3',
-            # 'HalfCheetah-v3',
+            'Ant-v3',
+             'HalfCheetah-v3',
             'Humanoid-v3',
-            # 'Walker2d-v3',
-            # 'Hopper-v3',
+            'Walker2d-v3',
+            #'Hopper-v3',
+            'InvertedDoublePendulum-v2',
+            #'Reacher-v2',
+           # 'Pusher-v2',
+            # 'Swimmer-v3',
+            # 'BipedalWalker-v3',
+            # 'BipedalWalkerHardcore-v3',
+            # 'CarRacing-v0',
+
         ]
     else:
         env = [args.env]
@@ -100,8 +114,10 @@ if __name__ == "__main__":
         config={  # 需要传入的参数
             'policy': args.policy,
             'file_name': args.file_name,
-            "env": tune.grid_search(env),
             "seed": tune.grid_search(seed),
+            "env": tune.grid_search(env),
+            "max_iteration": max_iteration,
+
             "start_timesteps": args.start_timesteps,
             "eval_freq": args.eval_freq,
             "max_timesteps": args.max_timesteps,
@@ -122,6 +138,7 @@ if __name__ == "__main__":
 
             'ensemble_size': args.ensemble_size,
             'UTD': args.UTD,
+            'sample_batch': args.sample_batch,
             'uncertain': args.uncertain,
             'explore_uncertain': args.explore_uncertain,
             'eval_uncertain_num': args.eval_uncertain_num,
