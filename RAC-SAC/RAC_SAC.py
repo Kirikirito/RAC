@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
     train_loop = main.RAC_SAC
 
-    seed = [x for x in range(args.seed, args.seed + 10000*args.seed_num)]  #
+    seed = [x for x in range(args.seed, args.seed + 10000*args.seed_num,10000)]  #
     if args.env == 'all':
         env = [
             'Ant-v3',
