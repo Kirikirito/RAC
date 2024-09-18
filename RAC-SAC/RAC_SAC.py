@@ -15,12 +15,12 @@ if __name__ == "__main__":
     ray.init()
 
     parser = argparse.ArgumentParser()
-    parallel_num = 5    # Number of parallel workers
+    parallel_num = 8    # Number of parallel workers
     gpu_num  = torch.cuda.device_count()
 
     parser.add_argument("--env", default="all", help='OpenAI gym environment name')
-    parser.add_argument("--seed", default=12345, type=int, help='Sets Gym, PyTorch and Numpy seeds')
-    parser.add_argument("--seed_num", default=5, type=int, help='seed numbers')
+    parser.add_argument("--seed", default=22345, type=int, help='Sets Gym, PyTorch and Numpy seeds')
+    parser.add_argument("--seed_num", default=4, type=int, help='seed numbers')
     parser.add_argument("--parallel_num", default=parallel_num, type=int, help='Number of parallel workers')
     parser.add_argument("--start_timesteps", default=1e4, type=int, help='Time steps initial random policy is used')
     parser.add_argument("--eval_freq", default=20*(2.5e3), type=int, help='How often (time steps) we evaluate')
@@ -82,11 +82,11 @@ if __name__ == "__main__":
     if args.env == 'all':
         env = [
             'Ant-v3',
-             'HalfCheetah-v3',
+            # 'HalfCheetah-v3',
             'Humanoid-v3',
-            'Walker2d-v3',
+            #'Walker2d-v3',
             #'Hopper-v3',
-            'InvertedDoublePendulum-v2',
+            #'InvertedDoublePendulum-v2',
             #'Reacher-v2',
            # 'Pusher-v2',
             # 'Swimmer-v3',

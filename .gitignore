@@ -134,3 +134,5 @@ celerybeat.pid
 
 # user 
 ray_results/
+models/
+output/
