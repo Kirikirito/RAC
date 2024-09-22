@@ -15,16 +15,18 @@ if __name__ == "__main__":
     ray.init()
 
     parser = argparse.ArgumentParser()
-    parallel_num = 8    # Number of parallel workers
+    parallel_num = 6    # Number of parallel workers
+    cpu_num_per_trial = 4
     gpu_num  = torch.cuda.device_count()
+    sample_batch_size = 1
 
-    parser.add_argument("--env", default="all", help='OpenAI gym environment name')
-    parser.add_argument("--seed", default=22345, type=int, help='Sets Gym, PyTorch and Numpy seeds')
-    parser.add_argument("--seed_num", default=4, type=int, help='seed numbers')
+    parser.add_argument("--env", default="Humanoid-v3", help='OpenAI gym environment name')
+    parser.add_argument("--seed", default=12345, type=int, help='Sets Gym, PyTorch and Numpy seeds')
+    parser.add_argument("--seed_num", default=5, type=int, help='seed numbers')
     parser.add_argument("--parallel_num", default=parallel_num, type=int, help='Number of parallel workers')
     parser.add_argument("--start_timesteps", default=1e4, type=int, help='Time steps initial random policy is used')
-    parser.add_argument("--eval_freq", default=20*(2.5e3), type=int, help='How often (time steps) we evaluate')
-    parser.add_argument("--max_timesteps", default=20*(1.5e6), type=int, help='Max time steps to run environment')
+    parser.add_argument("--eval_freq", default=sample_batch_size*(2.5e3), type=int, help='How often (time steps) we evaluate')
+    parser.add_argument("--max_timesteps", default=sample_batch_size*(1.5e6), type=int, help='Max time steps to run environment')
     parser.add_argument("--batch_size", default=256, type=int, help='Batch size for both actor and critic')
     parser.add_argument("--discount", default=0.99, help='Discount factor')
     parser.add_argument("--tau", default=0.005, help='Target network update rate')
@@ -41,9 +43,9 @@ if __name__ == "__main__":
     parser.add_argument("--target_time_steps", type=int, default=1e4, help='Time steps to reach the maximum critic learning rate')
 
     #
-    parser.add_argument("--ensemble_size", default=5, type=int, help='ensemble size')
-    parser.add_argument("--UTD", default=1, type=int, help='update-to-data ratio')
-    parser.add_argument("--sample_batch", default=20, type=int, help='update-to-data ratio')
+    parser.add_argument("--ensemble_size", default=10, type=int, help='ensemble size')
+    parser.add_argument("--UTD", default=20, type=int, help='update-to-data ratio')
+    parser.add_argument("--sample_batch", default=sample_batch_size, type=int, help='update-to-data ratio')
 
     parser.add_argument("--uncertain", default=0.8, type=int, help='Right side of exploitation distribution')  #
     parser.add_argument("--explore_uncertain", default=0.3, help='Right side of exploration distribution')
@@ -59,7 +61,7 @@ if __name__ == "__main__":
     parser.add_argument('--max_mc_steps', type=int, default=1200)
     parser.add_argument("--cal_KL", default=False)  #
 
-    parser.add_argument("--cpu_per_trial", default=1, help='CPU resources used by each trail')
+    parser.add_argument("--cpu_per_trial", default=cpu_num_per_trial, help='CPU resources used by each trail')
     parser.add_argument("--gpu_per_trial", default= gpu_num / parallel_num, help='GPU resources used by each trail')
     args = parser.parse_args()
     args.policy = 'RAC-SAC'
