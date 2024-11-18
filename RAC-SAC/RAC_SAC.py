@@ -69,8 +69,8 @@ if __name__ == "__main__":
     print(f"Policy: {args.policy}, Env: {args.env}, Seed: {args.seed}")
     print("---------------------------------------")
 
-    if not os.path.exists("./ray_results"):
-        os.makedirs("./ray_results")
+    if not os.path.exists("./origin_results"):
+        os.makedirs("./origin_results")
     if not os.path.exists("./models"):
         os.makedirs("./models")
     args.file_name = os.getcwd()
@@ -151,6 +151,6 @@ if __name__ == "__main__":
             'max_mc_steps': args.max_mc_steps,
             'cal_KL': args.cal_KL,
         },
-        local_dir='./ray_results',
+        local_dir='./origin_results',
         checkpoint_freq=args.checkpoint_freq,
     )
