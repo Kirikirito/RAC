@@ -1,0 +1,201 @@
+import argparse
+from main import main
+from ray import tune
+import numpy as np
+import torch
+import os
+import ray
+import sys
+import glob
+
+
+
+
+
+
+
+
+checkpoint = "/root/dsact/RAC/RAC-SAC/ray_results/RAC-SAC_restore/RAC_SAC_Ant-v3_ed7f1_00000_0_env=Ant-v3,seed=22345_2024-09-16_12-27-05/checkpoint_000600"
+
+
+
+
+
+
+
+
+
+# Set the recursion depth
+sys.setrecursionlimit(2000)
+
+if __name__ == "__main__":
+    # os.environ["CUDA_VISIBLE_DEVICES"] = "1"  #
+    ray.init()
+
+    parser = argparse.ArgumentParser()
+    parallel_num = 1    # Number of parallel workers
+    cpu_num_per_trial = 4
+    gpu_num  = torch.cuda.device_count()
+    sample_batch_size = 1
+    recal_Q = True
+
+    parser.add_argument("--env", default="Ant-v3", help='OpenAI gym environment name')
+    parser.add_argument("--recal_Q", default=recal_Q, help='Whether to estimate the Q value error')
+    parser.add_argument("--seed", default=12345, type=int, help='Sets Gym, PyTorch and Numpy seeds')
+    parser.add_argument("--seed_num", default=1, type=int, help='seed numbers')
+    parser.add_argument("--parallel_num", default=parallel_num, type=int, help='Number of parallel workers')
+    parser.add_argument("--start_timesteps", default=1e2, type=int, help='Time steps initial random policy is used')
+    parser.add_argument("--eval_freq", default=sample_batch_size*(2.5e3), type=int, help='How often (time steps) we evaluate')
+    parser.add_argument("--max_timesteps", default=sample_batch_size*(1.5e6), type=int, help='Max time steps to run environment')
+    parser.add_argument("--batch_size", default=256, type=int, help='Batch size for both actor and critic')
+    parser.add_argument("--discount", default=0.99, help='Discount factor')
+    parser.add_argument("--tau", default=0.005, help='Target network update rate')
+    parser.add_argument("--checkpoint_freq", default=20, type=int, help='Checkpoint saving frequency')
+    parser.add_argument("--policy_freq", default=100000, type=int, help='Frequency of delayed policy updates')
+    parser.add_argument("--actor_lr", default=0, help='Actor learning rate')
+    parser.add_argument("--temp_lr", default=0, help='Temperature learning rate')  #
+    parser.add_argument('--eval_episodes', type=int, default=10, help='Number of episodes needed for evaluation')
+    parser.add_argument("--replay_buffer_size", default=1e6, type=int, help='Replay buffer capability')
+
+    # critic lr warm up
+    parser.add_argument("--critic_lr", default=0, help='critic learning rate')
+    parser.add_argument("--init_critic_lr", default=0, help='Initialized critic learning rate')
+    parser.add_argument("--target_time_steps", type=int, default=1e4, help='Time steps to reach the maximum critic learning rate')
+
+    #
+    parser.add_argument("--ensemble_size", default=5, type=int, help='ensemble size')
+    parser.add_argument("--UTD", default=1, type=int, help='update-to-data ratio')
+    parser.add_argument("--sample_batch", default=sample_batch_size, type=int, help='update-to-data ratio')
+
+    parser.add_argument("--uncertain", default=0.8, type=int, help='Right side of exploitation distribution')  #
+    parser.add_argument("--explore_uncertain", default=0.3, help='Right side of exploration distribution')
+    parser.add_argument("--eval_uncertain_num", default=12, type=int, help='Number of discrete policies for evaluation')  #
+
+    #
+    parser.add_argument("--action_noisy_sigma", default=0)
+
+    #
+    parser.add_argument("--cal_Q_error", default=True, help='Whether to estimate the Q value error')  #
+    parser.add_argument('--MC_samples', type=int, default=10, help='Number of MC samples')
+    parser.add_argument('--state_action_pairs', type=int, default=10, help='Number of state-action pair samples')
+    parser.add_argument('--max_mc_steps', type=int, default=500)
+    parser.add_argument("--cal_KL", default=False)  #
+
+    parser.add_argument("--cpu_per_trial", default=cpu_num_per_trial, help='CPU resources used by each trail')
+    parser.add_argument("--gpu_per_trial", default= gpu_num / parallel_num, help='GPU resources used by each trail')
+    args = parser.parse_args()
+    args.policy = 'RAC-SAC'
+    print("---------------------------------------")
+    print(f"Policy: {args.policy}, Env: {args.env}, Seed: {args.seed}")
+    print("---------------------------------------")
+
+    if not os.path.exists("./recal_Q_results"):
+        os.makedirs("./recal_Q_results")
+    if not os.path.exists("./models"):
+        os.makedirs("./models")
+    args.file_name = os.getcwd()
+
+    max_iteration = int((args.max_timesteps - args.start_timesteps) / args.eval_freq) + 2   # for evaluation
+    assert max_iteration <= 1900
+
+    train_loop = main.RAC_SAC
+
+    seed = [x for x in range(args.seed, args.seed + 10000*args.seed_num,10000)]  #
+    if args.env == 'all':
+        env = [
+            'Ant-v3',
+            # 'HalfCheetah-v3',
+            'Humanoid-v3',
+            #'Walker2d-v3',
+            #'Hopper-v3',
+            #'InvertedDoublePendulum-v2',
+            #'Reacher-v2',
+           # 'Pusher-v2',
+            # 'Swimmer-v3',
+            # 'BipedalWalker-v3',
+            # 'BipedalWalkerHardcore-v3',
+            # 'CarRacing-v0',
+
+        ]
+    else:
+        env = [args.env]
+
+
+
+    def gather_file_by_env(env, root_path,seed=None):
+        # gather all the dirs in the root_path that contains the env name
+        if seed is not None:
+            env_dirs = glob.glob(f'{root_path}/**{env}*,seed={seed}*', recursive=False)
+        else:
+            env_dirs = glob.glob(f'{root_path}/**{env}*', recursive=False)
+        checkpoint_list = []
+        for env_dir in env_dirs:
+            checkpoint_list.append(env_dir + '/checkpoint_000600')
+        return checkpoint_list
+
+    root_path = '/root/dsact/RAC/RAC-SAC/ray_results/RAC-SAC_restore'
+    env_list = ["Ant-v3","Humanoid-v3"]
+    seed_list = [12345,22345,32345,42345,52345]
+    for env in env_list:
+        for seed in seed_list:
+            checkpoint = gather_file_by_env(env, root_path, seed)[0]
+            try:
+                analysis = tune.run(
+                    train_loop,
+                    name=args.policy,
+                    # scheduler=sched,
+                    stop={
+                        "training_iteration": max_iteration
+                    },
+                    keep_checkpoints_num=int(1e5),
+                    resources_per_trial={
+                        "cpu": args.cpu_per_trial,
+                        "gpu": args.gpu_per_trial,
+                    },
+                    num_samples=1,  # samples的数量
+                    config={  # 需要传入的参数
+                        'policy': args.policy,
+                        'file_name': args.file_name,
+                        "seed": tune.grid_search([seed]),
+                        "env": tune.grid_search([env]),
+                        "max_iteration": max_iteration,
+
+                        "start_timesteps": args.start_timesteps,
+                        "eval_freq": args.eval_freq,
+                        "max_timesteps": args.max_timesteps,
+                        "batch_size": args.batch_size,
+                        "discount": args.discount,
+                        "tau": args.tau,
+                        'policy_freq': args.policy_freq,
+                        "actor_lr": args.actor_lr,
+                        'temp_lr': args.temp_lr,
+                        'eval_episodes': args.eval_episodes,
+                        'replay_buffer_size': args.replay_buffer_size,
+
+                        "critic_lr": args.critic_lr,
+                        'init_critic_lr': args.init_critic_lr,
+                        'target_time_steps': args.target_time_steps,
+
+                        'action_noisy_sigma': args.action_noisy_sigma,
+
+                        'ensemble_size': args.ensemble_size,
+                        'UTD': args.UTD,
+                        'sample_batch': args.sample_batch,
+                        'uncertain': args.uncertain,
+                        'explore_uncertain': args.explore_uncertain,
+                        'eval_uncertain_num': args.eval_uncertain_num,
+
+                        'cal_Q_error': args.cal_Q_error,
+                        'MC_samples': args.MC_samples,
+                        'state_action_pairs': args.state_action_pairs,
+                        'max_mc_steps': args.max_mc_steps,
+                        'cal_KL': args.cal_KL,
+                        'recal_Q': args.recal_Q,
+                    },
+                    local_dir='./recal_Q_results',
+                    checkpoint_freq=args.checkpoint_freq,
+                    restore= checkpoint,
+                )
+            except Exception as e:
+                print(e)
+                continue

@@ -141,6 +141,7 @@ class learner(Agent):
                 replay_buffer_size = self.replay_buffer.get_size()
                 if replay_buffer_size <= self.target_time_steps:
                     self.update_lr(replay_buffer_size)
+                critic_loss = 0
                 for x in range(self.UTD):
                     samples = self.replay_buffer.sample(self.batch_size)
                     critic_loss = self.train_critic(samples)
@@ -174,7 +175,7 @@ class learner(Agent):
 
         best_uncertain = self.eval_uncertain_list[reward_list.index(max(reward_list))]
         cur_timesteps = self.Logger.get_timesteps()
-        if self.config['cal_Q_error'] and cur_timesteps > int(0.99*self.max_timesteps):
+        if (self.config['cal_Q_error'] and cur_timesteps > int(0.99*self.max_timesteps)) or self.config['recal_Q']:
             print('cal_Q_error')
             Q_estimate_class = Q_estimator(self.config, self, best_uncertain)
             Q_bias_dict = Q_estimate_class.cal_norm_bias()

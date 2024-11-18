@@ -1,0 +1,1000 @@
+[{"index": 1, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 0.0, "step": 0, "value": 998.4831454507814, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 7, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 6.0, "step": 15000, "value": 784.7664861766795, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 13, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 12.0, "step": 30000, "value": 1269.296280643389, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 19, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 18.0, "step": 45000, "value": 2296.1379217270983, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 25, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 24.0, "step": 60000, "value": 2867.4390427233875, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 31, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 30.0, "step": 75000, "value": 3347.6458712909234, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 37, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 36.0, "step": 90000, "value": 3536.5477565718757, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 43, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 42.0, "step": 105000, "value": 3859.7942885880266, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 49, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 48.0, "step": 120000, "value": 3945.130097397499, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 55, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 54.0, "step": 135000, "value": 4182.671720533357, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 61, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 60.0, "step": 150000, "value": 4335.914871495316, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 67, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 66.0, "step": 165000, "value": 4554.62369621814, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 73, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 72.0, "step": 180000, "value": 4631.484186592676, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 79, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 78.0, "step": 195000, "value": 4751.629743337905, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 85, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 84.0, "step": 210000, "value": 4705.989021225492, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 91, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 90.0, "step": 225000, "value": 5025.921078524082, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 97, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 96.0, "step": 240000, "value": 5121.215480121402, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 103, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 102.0, "step": 255000, "value": 5113.754827724211, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 109, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 108.0, "step": 270000, "value": 5317.558463070758, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 115, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 114.0, "step": 285000, "value": 5270.943687765082, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 121, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 120.0, "step": 300000, "value": 5425.821144319323, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 127, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 126.0, "step": 315000, "value": 5430.333303557347, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 133, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 132.0, "step": 330000, "value": 5642.022869383799, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 139, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 138.0, "step": 345000, "value": 5618.45002083708, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 145, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 144.0, "step": 360000, "value": 5681.418318994717, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 151, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 150.0, "step": 375000, "value": 5728.224787464286, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 157, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 156.0, "step": 390000, "value": 5718.600681024021, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 163, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 162.0, "step": 405000, "value": 5775.5723066700875, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 169, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 168.0, "step": 420000, "value": 5791.621641849697, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 175, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 174.0, "step": 435000, "value": 5819.717525636821, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 181, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 180.0, "step": 450000, "value": 5887.9878519654685, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 187, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 186.0, "step": 465000, "value": 5917.005848256089, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 193, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 192.0, "step": 480000, "value": 5955.725526973198, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 199, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 198.0, "step": 495000, "value": 5983.950886671606, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 205, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 204.0, "step": 510000, "value": 5936.676698545952, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 211, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 210.0, "step": 525000, "value": 6064.048328977066, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 217, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 216.0, "step": 540000, "value": 6026.999815887037, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 223, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 222.0, "step": 555000, "value": 6042.652499743932, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 229, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 228.0, "step": 570000, "value": 6051.091537805086, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 235, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 234.0, "step": 585000, "value": 6135.650683000822, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 241, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 240.0, "step": 600000, "value": 6129.843992420302, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 247, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 246.0, "step": 615000, "value": 6187.000286945834, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 253, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 252.0, "step": 630000, "value": 6095.164934953435, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 259, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 258.0, "step": 645000, "value": 6134.865437267893, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 265, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 264.0, "step": 660000, "value": 6224.915321085321, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 271, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 270.0, "step": 675000, "value": 6161.674108979098, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 277, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 276.0, "step": 690000, "value": 6158.632077158854, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 283, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 282.0, "step": 705000, "value": 6151.742738717755, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 289, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 288.0, "step": 720000, "value": 6277.503070554793, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 295, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 294.0, "step": 735000, "value": 6252.593761826808, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 301, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 300.0, "step": 750000, "value": 6319.730556502856, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 307, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 306.0, "step": 765000, "value": 6284.382711791097, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 313, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 312.0, "step": 780000, "value": 6331.503524670379, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 319, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 318.0, "step": 795000, "value": 6380.818162237638, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 325, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 324.0, "step": 810000, "value": 6333.411407136728, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 331, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 330.0, "step": 825000, "value": 6396.7568969698395, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 337, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 336.0, "step": 840000, "value": 6382.648207971678, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 343, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 342.0, "step": 855000, "value": 6394.710351817118, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 349, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 348.0, "step": 870000, "value": 6387.277947082218, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 355, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 354.0, "step": 885000, "value": 6388.446399769531, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 361, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 360.0, "step": 900000, "value": 6431.404246358036, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 367, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 366.0, "step": 915000, "value": 6435.979010540848, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 373, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 372.0, "step": 930000, "value": 6431.2745182142735, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 379, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 378.0, "step": 945000, "value": 6483.443708278336, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 385, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 384.0, "step": 960000, "value": 6413.291872052254, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 391, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 390.0, "step": 975000, "value": 6488.586651843796, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 397, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 396.0, "step": 990000, "value": 6469.3576359466515, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 403, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 402.0, "step": 1005000, "value": 6538.180280764793, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 409, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 408.0, "step": 1020000, "value": 6510.876131829854, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 415, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 414.0, "step": 1035000, "value": 6584.733092046088, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 421, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 420.0, "step": 1050000, "value": 6238.790019351712, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 427, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 426.0, "step": 1065000, "value": 6456.414696650036, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 433, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 432.0, "step": 1080000, "value": 6476.759134221139, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 439, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 438.0, "step": 1095000, "value": 6574.00149973151, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 445, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 444.0, "step": 1110000, "value": 6550.533307600283, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 451, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 450.0, "step": 1125000, "value": 6575.834182888427, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 457, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 456.0, "step": 1140000, "value": 6550.200732091068, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 463, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 462.0, "step": 1155000, "value": 6682.180177204516, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 469, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 468.0, "step": 1170000, "value": 6661.898817558433, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 475, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 474.0, "step": 1185000, "value": 6697.8545036600235, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 481, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 480.0, "step": 1200000, "value": 6707.366116775481, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 487, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 486.0, "step": 1215000, "value": 6730.6030125284, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 493, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 492.0, "step": 1230000, "value": 6746.505822974401, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 499, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 498.0, "step": 1245000, "value": 6781.897374044592, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 505, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 504.0, "step": 1260000, "value": 6736.300546020412, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 511, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 510.0, "step": 1275000, "value": 6801.326366002929, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 517, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 516.0, "step": 1290000, "value": 6807.3018479809325, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 523, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 522.0, "step": 1305000, "value": 6806.753951744885, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 529, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 528.0, "step": 1320000, "value": 6829.771573143356, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 535, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 534.0, "step": 1335000, "value": 6825.268689726183, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 541, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 540.0, "step": 1350000, "value": 6909.0080567756395, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 547, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 546.0, "step": 1365000, "value": 6889.155636164454, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 553, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 552.0, "step": 1380000, "value": 6881.798513303222, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 559, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 558.0, "step": 1395000, "value": 6942.532138302736, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 565, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 564.0, "step": 1410000, "value": 6925.033048068783, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 571, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 570.0, "step": 1425000, "value": 6920.214828111336, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 577, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 576.0, "step": 1440000, "value": 6924.0900284266145, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 583, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 582.0, "step": 1455000, "value": 6995.351991748677, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 589, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 588.0, "step": 1470000, "value": 6967.690547077689, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": null}
+,
+{"index": 595, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 594.0, "step": 1485000, "value": 6988.0618700471805, "metric": "Evaluation/1. TAR-RL iter", "run_id": 0, "default": "", "abs_mean_bias": -47.742228948106835}
+,
+{"index": 1, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 0.0, "step": 0, "value": 983.8177680336212, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 7, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 6.0, "step": 15000, "value": 1053.8740592678046, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 13, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 12.0, "step": 30000, "value": 2329.215742222567, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 19, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 18.0, "step": 45000, "value": 3319.0503523686107, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 25, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 24.0, "step": 60000, "value": 3872.1602583626045, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 31, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 30.0, "step": 75000, "value": 4393.642887526896, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 37, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 36.0, "step": 90000, "value": 4628.251632149939, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 43, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 42.0, "step": 105000, "value": 4921.199482756602, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 49, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 48.0, "step": 120000, "value": 5220.739145459422, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 55, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 54.0, "step": 135000, "value": 5353.3984280528575, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 61, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 60.0, "step": 150000, "value": 5509.276277574424, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 67, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 66.0, "step": 165000, "value": 5640.988819830274, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 73, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 72.0, "step": 180000, "value": 5745.7613031102865, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 79, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 78.0, "step": 195000, "value": 5886.409146858286, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 85, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 84.0, "step": 210000, "value": 5955.321405283272, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 91, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 90.0, "step": 225000, "value": 5859.340962631129, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 97, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 96.0, "step": 240000, "value": 5973.9078209352565, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 103, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 102.0, "step": 255000, "value": 6106.04551654685, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 109, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 108.0, "step": 270000, "value": 6076.209640811272, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 115, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 114.0, "step": 285000, "value": 6176.7284204226535, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 121, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 120.0, "step": 300000, "value": 6203.92051096278, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 127, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 126.0, "step": 315000, "value": 6288.748646402679, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 133, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 132.0, "step": 330000, "value": 6260.757566605471, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 139, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 138.0, "step": 345000, "value": 6368.086713214354, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 145, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 144.0, "step": 360000, "value": 6432.869763643733, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 151, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 150.0, "step": 375000, "value": 6415.323516023206, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 157, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 156.0, "step": 390000, "value": 6423.02504027477, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 163, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 162.0, "step": 405000, "value": 6481.652110396639, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 169, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 168.0, "step": 420000, "value": 6432.20576298873, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 175, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 174.0, "step": 435000, "value": 6481.997026584222, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 181, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 180.0, "step": 450000, "value": 6499.956683077534, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 187, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 186.0, "step": 465000, "value": 6564.270951661328, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 193, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 192.0, "step": 480000, "value": 6545.519775012928, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 199, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 198.0, "step": 495000, "value": 6631.656371205109, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 205, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 204.0, "step": 510000, "value": 6624.9699360581435, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 211, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 210.0, "step": 525000, "value": 6617.455007376261, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 217, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 216.0, "step": 540000, "value": 6621.287960304662, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 223, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 222.0, "step": 555000, "value": 6713.417679570014, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 229, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 228.0, "step": 570000, "value": 6698.840521691993, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 235, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 234.0, "step": 585000, "value": 6722.821511228163, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 241, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 240.0, "step": 600000, "value": 6777.85900641137, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 247, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 246.0, "step": 615000, "value": 6730.258816728022, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 253, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 252.0, "step": 630000, "value": 6719.0834484334, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 259, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 258.0, "step": 645000, "value": 6771.393443476036, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 265, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 264.0, "step": 660000, "value": 6818.84439900944, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 271, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 270.0, "step": 675000, "value": 6769.186513577853, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 277, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 276.0, "step": 690000, "value": 6747.667913280804, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 283, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 282.0, "step": 705000, "value": 6845.5313398045855, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 289, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 288.0, "step": 720000, "value": 6802.573981667658, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 295, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 294.0, "step": 735000, "value": 6815.019711305385, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 301, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 300.0, "step": 750000, "value": 6900.983851036377, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 307, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 306.0, "step": 765000, "value": 6867.863368806788, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 313, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 312.0, "step": 780000, "value": 6905.006694182741, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 319, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 318.0, "step": 795000, "value": 6839.058855742069, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 325, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 324.0, "step": 810000, "value": 6900.674492481188, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 331, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 330.0, "step": 825000, "value": 6952.7809450226505, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 337, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 336.0, "step": 840000, "value": 6943.390467261197, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 343, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 342.0, "step": 855000, "value": 6932.2143435066855, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 349, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 348.0, "step": 870000, "value": 6900.420743397207, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 355, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 354.0, "step": 885000, "value": 6965.188074365389, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 361, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 360.0, "step": 900000, "value": 6995.78459253272, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 367, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 366.0, "step": 915000, "value": 6924.752359035901, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 373, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 372.0, "step": 930000, "value": 7001.621046016191, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 379, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 378.0, "step": 945000, "value": 6990.026582334656, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 385, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 384.0, "step": 960000, "value": 7032.398700711818, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 391, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 390.0, "step": 975000, "value": 7054.7765759771555, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 397, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 396.0, "step": 990000, "value": 7054.510118211949, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 403, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 402.0, "step": 1005000, "value": 7049.933413979599, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 409, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 408.0, "step": 1020000, "value": 7079.4663408176175, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 415, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 414.0, "step": 1035000, "value": 7108.089369403258, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 421, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 420.0, "step": 1050000, "value": 7092.497534043653, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 427, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 426.0, "step": 1065000, "value": 7106.358372552257, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 433, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 432.0, "step": 1080000, "value": 7126.277293393201, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 439, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 438.0, "step": 1095000, "value": 7172.524035706265, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 445, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 444.0, "step": 1110000, "value": 7172.7426259944605, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 451, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 450.0, "step": 1125000, "value": 7133.348481646232, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 457, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 456.0, "step": 1140000, "value": 7168.686221850509, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 463, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 462.0, "step": 1155000, "value": 7283.19846698686, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 469, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 468.0, "step": 1170000, "value": 7281.285359471354, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 475, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 474.0, "step": 1185000, "value": 7273.838764274592, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 481, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 480.0, "step": 1200000, "value": 7374.542635826108, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 487, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 486.0, "step": 1215000, "value": 7395.873621806505, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 493, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 492.0, "step": 1230000, "value": 7360.980864067782, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 499, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 498.0, "step": 1245000, "value": 7365.343085904114, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 505, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 504.0, "step": 1260000, "value": 7364.961052679355, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 511, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 510.0, "step": 1275000, "value": 7420.677049529144, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 517, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 516.0, "step": 1290000, "value": 7483.713875315228, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 523, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 522.0, "step": 1305000, "value": 7523.662513996986, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 529, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 528.0, "step": 1320000, "value": 7524.147229678383, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 535, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 534.0, "step": 1335000, "value": 7522.201427272297, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 541, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 540.0, "step": 1350000, "value": 7547.308013911796, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 547, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 546.0, "step": 1365000, "value": 7574.731483540199, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 553, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 552.0, "step": 1380000, "value": 7604.4025688233905, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 559, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 558.0, "step": 1395000, "value": 7598.15854674535, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 565, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 564.0, "step": 1410000, "value": 7640.022497296518, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 571, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 570.0, "step": 1425000, "value": 7653.289165028429, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 577, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 576.0, "step": 1440000, "value": 7649.813481564107, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 583, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 582.0, "step": 1455000, "value": 7692.081635974125, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 589, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 588.0, "step": 1470000, "value": 7670.283619907721, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": null}
+,
+{"index": 595, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 594.0, "step": 1485000, "value": 7690.178446073168, "metric": "Evaluation/1. TAR-RL iter", "run_id": 1, "default": "", "abs_mean_bias": 8.481454647342673}
+,
+{"index": 1, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 0.0, "step": 0, "value": 981.0637483835948, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 7, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 6.0, "step": 15000, "value": 811.3202377405639, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 13, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 12.0, "step": 30000, "value": 1370.7390502231185, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 19, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 18.0, "step": 45000, "value": 3152.192681836927, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 25, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 24.0, "step": 60000, "value": 2605.326900000873, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 31, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 30.0, "step": 75000, "value": 4463.908954469279, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 37, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 36.0, "step": 90000, "value": 4836.318286226358, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 43, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 42.0, "step": 105000, "value": 5236.16346217135, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 49, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 48.0, "step": 120000, "value": 5144.440163626555, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 55, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 54.0, "step": 135000, "value": 5561.920132550333, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 61, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 60.0, "step": 150000, "value": 5708.338152666129, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 67, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 66.0, "step": 165000, "value": 5694.547134485146, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 73, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 72.0, "step": 180000, "value": 5949.388171519078, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 79, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 78.0, "step": 195000, "value": 5933.770744238071, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 85, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 84.0, "step": 210000, "value": 6033.344550652711, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 91, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 90.0, "step": 225000, "value": 5963.962722873559, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 97, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 96.0, "step": 240000, "value": 6060.921401157497, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 103, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 102.0, "step": 255000, "value": 6244.654536408963, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 109, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 108.0, "step": 270000, "value": 6189.561332878503, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 115, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 114.0, "step": 285000, "value": 6260.906813111031, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 121, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 120.0, "step": 300000, "value": 6233.614328260754, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 127, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 126.0, "step": 315000, "value": 6361.830899271647, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 133, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 132.0, "step": 330000, "value": 6330.667487290372, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 139, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 138.0, "step": 345000, "value": 6370.316897664057, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 145, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 144.0, "step": 360000, "value": 6407.370715797577, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 151, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 150.0, "step": 375000, "value": 6437.689655007088, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 157, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 156.0, "step": 390000, "value": 6485.171734464232, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 163, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 162.0, "step": 405000, "value": 6530.328710494351, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 169, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 168.0, "step": 420000, "value": 6541.213650537399, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 175, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 174.0, "step": 435000, "value": 6536.918523455832, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 181, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 180.0, "step": 450000, "value": 6609.167154238408, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 187, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 186.0, "step": 465000, "value": 6605.186245581836, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 193, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 192.0, "step": 480000, "value": 6584.457272557636, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 199, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 198.0, "step": 495000, "value": 6574.421467657639, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 205, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 204.0, "step": 510000, "value": 6659.264237089847, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 211, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 210.0, "step": 525000, "value": 6656.628131299965, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 217, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 216.0, "step": 540000, "value": 6643.505549411081, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 223, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 222.0, "step": 555000, "value": 6654.9507234876855, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 229, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 228.0, "step": 570000, "value": 6692.696282079577, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 235, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 234.0, "step": 585000, "value": 6686.171329199712, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 241, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 240.0, "step": 600000, "value": 6756.082846478236, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 247, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 246.0, "step": 615000, "value": 6695.105168314316, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 253, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 252.0, "step": 630000, "value": 6695.35453386889, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 259, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 258.0, "step": 645000, "value": 6755.354804502119, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 265, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 264.0, "step": 660000, "value": 6726.633124424155, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 271, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 270.0, "step": 675000, "value": 6817.824315715724, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 277, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 276.0, "step": 690000, "value": 6756.9463530854555, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 283, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 282.0, "step": 705000, "value": 6777.022439881372, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 289, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 288.0, "step": 720000, "value": 6788.307596248797, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 295, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 294.0, "step": 735000, "value": 6874.975882029672, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 301, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 300.0, "step": 750000, "value": 6845.432109255246, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 307, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 306.0, "step": 765000, "value": 6838.946574416672, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 313, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 312.0, "step": 780000, "value": 6810.940198283596, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 319, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 318.0, "step": 795000, "value": 6907.668402781032, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 325, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 324.0, "step": 810000, "value": 6871.993852515305, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 331, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 330.0, "step": 825000, "value": 6880.7108535907755, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 337, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 336.0, "step": 840000, "value": 6915.824220303793, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 343, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 342.0, "step": 855000, "value": 6932.510022702461, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 349, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 348.0, "step": 870000, "value": 6899.770659404983, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 355, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 354.0, "step": 885000, "value": 6939.67141369561, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 361, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 360.0, "step": 900000, "value": 6935.66801093663, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 367, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 366.0, "step": 915000, "value": 6906.647530365348, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 373, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 372.0, "step": 930000, "value": 6967.779335093944, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 379, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 378.0, "step": 945000, "value": 6955.89767835129, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 385, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 384.0, "step": 960000, "value": 6976.711596691365, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 391, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 390.0, "step": 975000, "value": 6975.29819579885, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 397, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 396.0, "step": 990000, "value": 6946.104640223457, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 403, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 402.0, "step": 1005000, "value": 6978.874543934922, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 409, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 408.0, "step": 1020000, "value": 7080.876973052878, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 415, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 414.0, "step": 1035000, "value": 7006.564727460388, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 421, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 420.0, "step": 1050000, "value": 7022.177305862465, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 427, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 426.0, "step": 1065000, "value": 7041.252789540471, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 433, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 432.0, "step": 1080000, "value": 7038.069505939404, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 439, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 438.0, "step": 1095000, "value": 7110.575458086074, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 445, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 444.0, "step": 1110000, "value": 7068.896961082816, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 451, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 450.0, "step": 1125000, "value": 7147.225862076622, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 457, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 456.0, "step": 1140000, "value": 7086.416081360726, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 463, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 462.0, "step": 1155000, "value": 7153.3692590875, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 469, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 468.0, "step": 1170000, "value": 7092.231668247519, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 475, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 474.0, "step": 1185000, "value": -792.3189701906873, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 481, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 480.0, "step": 1200000, "value": 290.87046335026446, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 487, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 486.0, "step": 1215000, "value": -354.1896978793971, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 493, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 492.0, "step": 1230000, "value": 1540.8445924997336, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 499, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 498.0, "step": 1245000, "value": 3652.73046544688, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 505, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 504.0, "step": 1260000, "value": 4273.838413378742, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 511, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 510.0, "step": 1275000, "value": 5144.560369113615, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 517, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 516.0, "step": 1290000, "value": 5586.344928585308, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 523, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 522.0, "step": 1305000, "value": 5134.865621011339, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 529, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 528.0, "step": 1320000, "value": 5776.85787655284, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 535, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 534.0, "step": 1335000, "value": 6029.759529514506, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 541, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 540.0, "step": 1350000, "value": 6078.646469591744, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 547, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 546.0, "step": 1365000, "value": 6248.956160301039, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 553, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 552.0, "step": 1380000, "value": 6345.286401102787, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 559, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 558.0, "step": 1395000, "value": 6261.6501280717675, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 565, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 564.0, "step": 1410000, "value": 6297.479502532064, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 571, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 570.0, "step": 1425000, "value": 6304.54814180292, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 577, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 576.0, "step": 1440000, "value": 6467.418657665252, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 583, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 582.0, "step": 1455000, "value": 6484.393939469756, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 589, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 588.0, "step": 1470000, "value": 6503.348979507708, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": null}
+,
+{"index": 595, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 594.0, "step": 1485000, "value": 6548.264998225061, "metric": "Evaluation/1. TAR-RL iter", "run_id": 2, "default": "", "abs_mean_bias": -29.468392277249528}
+,
+{"index": 1, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 0.0, "step": 0, "value": 987.1266010662748, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 7, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 6.0, "step": 15000, "value": 987.672607216044, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 13, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 12.0, "step": 30000, "value": 1910.5067591850718, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 19, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 18.0, "step": 45000, "value": 3394.6054012465165, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 25, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 24.0, "step": 60000, "value": 4028.0226914250466, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 31, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 30.0, "step": 75000, "value": 4363.973025030207, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 37, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 36.0, "step": 90000, "value": 4699.5996162804, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 43, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 42.0, "step": 105000, "value": 4957.761813309993, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 49, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 48.0, "step": 120000, "value": 5166.603614419095, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 55, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 54.0, "step": 135000, "value": 5389.927470022425, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 61, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 60.0, "step": 150000, "value": 5467.533317571214, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 67, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 66.0, "step": 165000, "value": 5531.691123870223, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 73, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 72.0, "step": 180000, "value": 5571.338135244815, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 79, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 78.0, "step": 195000, "value": 5625.492911455953, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 85, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 84.0, "step": 210000, "value": 5756.462050940758, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 91, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 90.0, "step": 225000, "value": 5758.797964118209, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 97, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 96.0, "step": 240000, "value": 5796.525433089728, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 103, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 102.0, "step": 255000, "value": 5794.03573588156, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 109, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 108.0, "step": 270000, "value": 5873.909052435477, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 115, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 114.0, "step": 285000, "value": 5894.341740555341, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 121, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 120.0, "step": 300000, "value": 6004.084427079665, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 127, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 126.0, "step": 315000, "value": 5987.019970837245, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 133, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 132.0, "step": 330000, "value": 6046.3702409296, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 139, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 138.0, "step": 345000, "value": 6044.119341345634, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 145, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 144.0, "step": 360000, "value": 6072.017860229824, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 151, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 150.0, "step": 375000, "value": 6149.092082316083, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 157, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 156.0, "step": 390000, "value": 6126.47182716994, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 163, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 162.0, "step": 405000, "value": 6118.197625264049, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 169, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 168.0, "step": 420000, "value": 6217.215879985246, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 175, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 174.0, "step": 435000, "value": 6202.338218115647, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 181, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 180.0, "step": 450000, "value": 6217.456048911053, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 187, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 186.0, "step": 465000, "value": 6237.802466916726, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 193, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 192.0, "step": 480000, "value": 6251.860912105857, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 199, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 198.0, "step": 495000, "value": 6297.107903395208, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 205, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 204.0, "step": 510000, "value": 6287.63603913607, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 211, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 210.0, "step": 525000, "value": 6320.450339341, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 217, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 216.0, "step": 540000, "value": 6384.437031286017, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 223, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 222.0, "step": 555000, "value": 6351.395733741966, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 229, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 228.0, "step": 570000, "value": 6389.624689583061, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 235, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 234.0, "step": 585000, "value": 6368.528170062791, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 241, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 240.0, "step": 600000, "value": 6474.1442225458595, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 247, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 246.0, "step": 615000, "value": 6447.619408067273, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 253, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 252.0, "step": 630000, "value": 6471.84676152031, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 259, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 258.0, "step": 645000, "value": 6447.402054945864, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 265, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 264.0, "step": 660000, "value": 6521.021625112356, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 271, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 270.0, "step": 675000, "value": 6509.714415592053, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 277, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 276.0, "step": 690000, "value": 6504.0809366942485, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 283, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 282.0, "step": 705000, "value": 6555.61471171343, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 289, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 288.0, "step": 720000, "value": 6538.001682756687, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 295, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 294.0, "step": 735000, "value": 6611.70113179986, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 301, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 300.0, "step": 750000, "value": 6616.7726911357, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 307, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 306.0, "step": 765000, "value": 6600.768794597081, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 313, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 312.0, "step": 780000, "value": 6589.998003031879, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 319, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 318.0, "step": 795000, "value": 6602.521905423098, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 325, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 324.0, "step": 810000, "value": 6592.823301980449, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 331, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 330.0, "step": 825000, "value": 6583.907979959181, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 337, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 336.0, "step": 840000, "value": 6630.152159014009, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 343, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 342.0, "step": 855000, "value": 6673.489127933144, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 349, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 348.0, "step": 870000, "value": 6672.383364368208, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 355, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 354.0, "step": 885000, "value": 6690.923796242665, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 361, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 360.0, "step": 900000, "value": 6690.069218900537, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 367, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 366.0, "step": 915000, "value": 6740.096759102428, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 373, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 372.0, "step": 930000, "value": 6725.889945822925, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 379, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 378.0, "step": 945000, "value": 6758.762299694313, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 385, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 384.0, "step": 960000, "value": 6697.866810532015, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 391, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 390.0, "step": 975000, "value": 6720.657079623476, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 397, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 396.0, "step": 990000, "value": 6736.740628412267, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 403, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 402.0, "step": 1005000, "value": 6777.00827193967, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 409, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 408.0, "step": 1020000, "value": 6798.97440959987, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 415, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 414.0, "step": 1035000, "value": 6794.544290385023, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 421, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 420.0, "step": 1050000, "value": 6780.948216138489, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 427, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 426.0, "step": 1065000, "value": 6844.949021778969, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 433, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 432.0, "step": 1080000, "value": 6862.968985003348, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 439, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 438.0, "step": 1095000, "value": 6889.050577283289, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 445, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 444.0, "step": 1110000, "value": 6889.618742260514, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 451, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 450.0, "step": 1125000, "value": 6923.496087774978, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 457, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 456.0, "step": 1140000, "value": 6947.027667241661, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 463, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 462.0, "step": 1155000, "value": 6960.718413013438, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 469, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 468.0, "step": 1170000, "value": 6958.819415727507, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 475, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 474.0, "step": 1185000, "value": 6994.828216432601, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 481, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 480.0, "step": 1200000, "value": 7005.71620727246, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 487, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 486.0, "step": 1215000, "value": 7029.714353374712, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 493, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 492.0, "step": 1230000, "value": 7080.451818638445, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 499, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 498.0, "step": 1245000, "value": 7055.36801582953, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 505, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 504.0, "step": 1260000, "value": 7084.804958821325, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 511, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 510.0, "step": 1275000, "value": 7060.105936748451, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 517, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 516.0, "step": 1290000, "value": 7101.415141248619, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 523, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 522.0, "step": 1305000, "value": 7165.755773216313, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 529, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 528.0, "step": 1320000, "value": -723.0428513307545, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 535, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 534.0, "step": 1335000, "value": -213.70437127924333, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 541, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 540.0, "step": 1350000, "value": 1134.1372464787612, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 547, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 546.0, "step": 1365000, "value": 2256.532368083736, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 553, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 552.0, "step": 1380000, "value": 2499.4524523921036, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 559, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 558.0, "step": 1395000, "value": 3473.8735691519264, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 565, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 564.0, "step": 1410000, "value": 3888.8028027727983, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 571, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 570.0, "step": 1425000, "value": 4217.438613525001, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 577, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 576.0, "step": 1440000, "value": 4850.384744340162, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 583, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 582.0, "step": 1455000, "value": 5617.054447368598, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 589, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 588.0, "step": 1470000, "value": 5659.98249169908, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": null}
+,
+{"index": 595, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 594.0, "step": 1485000, "value": 5670.274575684138, "metric": "Evaluation/1. TAR-RL iter", "run_id": 3, "default": "", "abs_mean_bias": 23.91003349144807}
+,
+{"index": 1, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 0.0, "step": 0, "value": 1000.5661629827185, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 7, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 6.0, "step": 15000, "value": 1007.9381901839257, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 13, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 12.0, "step": 30000, "value": 1473.2374663930227, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 19, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 18.0, "step": 45000, "value": 2219.0665970362174, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 25, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 24.0, "step": 60000, "value": 2266.167641553944, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 31, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 30.0, "step": 75000, "value": 2529.5625630765617, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 37, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 36.0, "step": 90000, "value": 2675.2534049793167, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 43, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 42.0, "step": 105000, "value": 2796.092081780145, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 49, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 48.0, "step": 120000, "value": 2871.964208010401, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 55, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 54.0, "step": 135000, "value": 2904.7821916949965, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 61, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 60.0, "step": 150000, "value": 3054.7360450264814, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 67, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 66.0, "step": 165000, "value": 3220.0562012580717, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 73, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 72.0, "step": 180000, "value": 3331.732902353363, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 79, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 78.0, "step": 195000, "value": 3382.388660652306, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 85, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 84.0, "step": 210000, "value": 3446.5199377696904, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 91, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 90.0, "step": 225000, "value": 3566.504431389574, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 97, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 96.0, "step": 240000, "value": 3553.297689194732, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 103, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 102.0, "step": 255000, "value": 3560.61244100495, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 109, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 108.0, "step": 270000, "value": 3504.232608677206, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 115, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 114.0, "step": 285000, "value": 3821.136952106181, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 121, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 120.0, "step": 300000, "value": 3792.0041034402616, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 127, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 126.0, "step": 315000, "value": 3853.808101628279, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 133, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 132.0, "step": 330000, "value": 3819.3636053686905, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 139, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 138.0, "step": 345000, "value": 3936.22794589535, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 145, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 144.0, "step": 360000, "value": 3998.0872175941904, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 151, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 150.0, "step": 375000, "value": 4206.361842349779, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 157, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 156.0, "step": 390000, "value": 4140.555688898583, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 163, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 162.0, "step": 405000, "value": 4224.4150273410905, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 169, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 168.0, "step": 420000, "value": 4325.157379116105, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 175, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 174.0, "step": 435000, "value": 4286.524555769109, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 181, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 180.0, "step": 450000, "value": 4377.295324161502, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 187, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 186.0, "step": 465000, "value": 4411.243439433488, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 193, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 192.0, "step": 480000, "value": 4409.048593374045, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 199, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 198.0, "step": 495000, "value": 4506.569126653493, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 205, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 204.0, "step": 510000, "value": 4497.316643215815, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 211, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 210.0, "step": 525000, "value": 4385.80930490185, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 217, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 216.0, "step": 540000, "value": 4736.287711320028, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 223, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 222.0, "step": 555000, "value": 4719.527375624275, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 229, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 228.0, "step": 570000, "value": 4680.510887322947, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 235, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 234.0, "step": 585000, "value": 4626.950497716144, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 241, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 240.0, "step": 600000, "value": 4732.677682742806, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 247, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 246.0, "step": 615000, "value": 4823.825528230888, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 253, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 252.0, "step": 630000, "value": 4781.181046636202, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 259, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 258.0, "step": 645000, "value": 4841.784171854936, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 265, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 264.0, "step": 660000, "value": 4876.562071320377, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 271, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 270.0, "step": 675000, "value": 4632.014785629989, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 277, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 276.0, "step": 690000, "value": 4897.107145109929, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 283, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 282.0, "step": 705000, "value": 4835.3869130734765, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 289, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 288.0, "step": 720000, "value": 4962.7185126966015, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 295, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 294.0, "step": 735000, "value": 5034.93004257144, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 301, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 300.0, "step": 750000, "value": 4943.621946440498, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 307, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 306.0, "step": 765000, "value": 5032.374778191105, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 313, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 312.0, "step": 780000, "value": 5083.446956138356, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 319, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 318.0, "step": 795000, "value": 5057.029469484594, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 325, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 324.0, "step": 810000, "value": 5061.423205815527, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 331, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 330.0, "step": 825000, "value": 5093.880912875529, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 337, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 336.0, "step": 840000, "value": 5148.771837661684, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 343, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 342.0, "step": 855000, "value": 5005.768021335878, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 349, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 348.0, "step": 870000, "value": 4978.957173932771, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 355, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 354.0, "step": 885000, "value": 5210.224348085389, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 361, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 360.0, "step": 900000, "value": 5146.639654147156, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 367, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 366.0, "step": 915000, "value": 5219.766347239858, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 373, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 372.0, "step": 930000, "value": 5201.754701007357, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 379, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 378.0, "step": 945000, "value": 5143.826842218054, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 385, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 384.0, "step": 960000, "value": 5281.967508321983, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 391, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 390.0, "step": 975000, "value": 5280.335425939086, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 397, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 396.0, "step": 990000, "value": 5187.337215589608, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 403, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 402.0, "step": 1005000, "value": 5237.7398447993055, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 409, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 408.0, "step": 1020000, "value": 5311.769188748115, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 415, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 414.0, "step": 1035000, "value": 5266.95124155772, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 421, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 420.0, "step": 1050000, "value": 5303.601263651581, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 427, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 426.0, "step": 1065000, "value": 5312.696980415891, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 433, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 432.0, "step": 1080000, "value": 5404.552108531189, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 439, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 438.0, "step": 1095000, "value": 5405.849885150125, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 445, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 444.0, "step": 1110000, "value": 5472.767307635581, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 451, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 450.0, "step": 1125000, "value": 5498.333106133937, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 457, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 456.0, "step": 1140000, "value": 5508.468335324232, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 463, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 462.0, "step": 1155000, "value": 5548.548918368195, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 469, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 468.0, "step": 1170000, "value": 5504.809705974599, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 475, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 474.0, "step": 1185000, "value": 5578.806783249928, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 481, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 480.0, "step": 1200000, "value": 5629.7346443954575, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 487, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 486.0, "step": 1215000, "value": 5648.909037127456, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 493, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 492.0, "step": 1230000, "value": 5656.595565028048, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 499, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 498.0, "step": 1245000, "value": 5647.428760497555, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 505, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 504.0, "step": 1260000, "value": 5601.168348283974, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 511, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 510.0, "step": 1275000, "value": 5719.387687160766, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 517, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 516.0, "step": 1290000, "value": 5708.60313568235, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 523, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 522.0, "step": 1305000, "value": 5713.541058562872, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 529, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 528.0, "step": 1320000, "value": 5755.2426425717, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 535, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 534.0, "step": 1335000, "value": -467.25561545001267, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 541, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 540.0, "step": 1350000, "value": -168.38023347854158, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 547, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 546.0, "step": 1365000, "value": 229.37606083781117, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 553, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 552.0, "step": 1380000, "value": 1384.5666710940131, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 559, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 558.0, "step": 1395000, "value": 1986.3209879436665, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 565, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 564.0, "step": 1410000, "value": 2124.280378249263, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 571, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 570.0, "step": 1425000, "value": 2488.5015718340137, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 577, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 576.0, "step": 1440000, "value": 3683.140436494015, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 583, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 582.0, "step": 1455000, "value": 4431.800444810696, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 589, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 588.0, "step": 1470000, "value": 4688.996028015599, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": null}
+,
+{"index": 595, "algorithm": "RAC-SAC", "env": "gym_ant", "run": 594.0, "step": 1485000, "value": 4385.730309630655, "metric": "Evaluation/1. TAR-RL iter", "run_id": 4, "default": "", "abs_mean_bias": -52.47803638861742}
+]

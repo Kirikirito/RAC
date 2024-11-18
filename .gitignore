@@ -134,5 +134,8 @@ celerybeat.pid
 
 # user 
 ray_results/
+origin_results/
 models/
 output/
+output_recal/
+recal_Q_results/
